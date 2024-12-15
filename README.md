@@ -9,6 +9,7 @@ To run the project
 
 step 1: naviagte to  frontend  folder 
 and install nodel modules and start frontend server
+
 command 1:cd frontend
 
 command 2: npm i node,
