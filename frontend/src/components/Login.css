@@ -1,0 +1,45 @@
+.page{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    min-height: 100vh;
+    
+}
+
+.i{
+    color:white;
+    
+}
+
+.o{
+    color:white;
+    background-color:black;
+    border:2px solid white;
+    height:50px;
+    width:350px;
+}
+
+.login{
+    color:black;
+    background-color: white;
+    height:60px;
+    width:150px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.register{
+    color:black;
+    background-color: white;
+    height:40px;
+    width:150px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.lady{
+    border-radius: 20px;
+}

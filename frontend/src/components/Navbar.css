@@ -1,0 +1,33 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-item {
+  color: black;
+  cursor: pointer;
+  font-family: Nunito Sans;
+  display: inline-block; 
+  margin-right: 40px; 
+  font-size: 20px;
+  
+}
+#nav1{
+  font-family: Italiana;
+  font-weight: bold;
+}
+
+/* Navbar.css */
+.gif {
+  width: 50px; /* Adjust the width of the GIF */
+  height: auto; /* Maintain aspect ratio */
+}
+                                    

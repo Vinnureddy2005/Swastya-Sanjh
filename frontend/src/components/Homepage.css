@@ -1,0 +1,112 @@
+/* Homepage.css */
+
+.home {
+  background-image: url('../images/homepic.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text {
+  margin-top: 200px;
+  margin-left: 50px;
+  font-family: Nunito Sans;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.text.show {
+  opacity: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Adjusting size of images */
+.image {
+  width: 18rem; /* Adjust this width to match the width of your cards */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 60px; /* Adjust margin to match the spacing of your cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: -60px;  /* Add transition for smooth hover effect */
+}
+
+/* Hover effect for images */
+.image:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+}
+
+.card {
+  background-color: black;
+  border-radius: 0.5rem;
+  margin-top: -50px;
+}
+
+.rounded-lg {
+  border-radius: 1.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.text-white-700 {
+  color: white;
+}
+
+#cards {
+  width: 18rem;
+  margin-left: 60px;
+}
+
+.language-dropdown {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; /* Ensure it's above other elements */
+}
