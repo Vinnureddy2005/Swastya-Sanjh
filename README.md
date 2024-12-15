@@ -14,6 +14,7 @@ command 2: npm i node,
 command 3: npm start
 
 it start development server 
+
 -------------------------------------------------------------------------------
 
 step 2 : navigate to server folder
@@ -22,6 +23,7 @@ command 1: cd server
 command 2: node/nodemon server.js
 
 its connects to Mongo DB
+
 --------------------------------------------------------------------------------
 
 step 3: navigate to LLM folder
