@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from 'react';
 import {
-  StreamVideoClient,
+  CallingState,
   StreamCall,
   StreamVideo,
-  CallingState
+  StreamVideoClient
 } from '@stream-io/video-react-sdk';
 import '@stream-io/video-react-sdk/dist/css/styles.css';
+import React, { useEffect, useState } from 'react';
 import JoinMeeting from './JoinMeeting';
 import MyUILayout from './MyUILayout';
 
-const apiKey = 'mvqeysbyyhba';
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTMxMDE3NiJ9.rxinm4OxtMjZ3JYMOKzH3YafG49j4qNdeXu7gQK5R68';
-const userId = '1310176';
+const apiKey = 'your-api-key';
+const token = 'your-token';
+const userId = 'your-userId';
 const user = {
   id: userId,
-  name: 'Meghana',
+  name: 'your-name',
   image: 'https://example.com/image.png'
 };
 
